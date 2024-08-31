@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./projects.css"; // Custom CSS for additional styling
-
+import "./projects.css"; 
 export default function Projects() {
   return (
     <div className="container mt-5">
@@ -11,11 +10,11 @@ export default function Projects() {
         <div className="accordion-item mb-4">
           <h2 className="accordion-header" id="web-dev-header">
             <button
-              className="accordion-button"
+              className="accordion-button collapsed"  
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#web-dev-accordion"
-              aria-expanded="true"
+              aria-expanded="false"  
               aria-controls="web-dev-accordion"
             >
               E-commerce Website using Django & React
@@ -23,14 +22,13 @@ export default function Projects() {
           </h2>
           <div
             id="web-dev-accordion"
-            className="accordion-collapse collapse show"
+            className="accordion-collapse collapse"  
             aria-labelledby="web-dev-header"
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
               <p>
-                We developed a comprehensive e-commerce platform tailored for the
-                garment industry, utilizing Django for the backend and React for the frontend.
+                We developed a comprehensive e-commerce platform tailored for the garment industry, utilizing Django for the backend and React for the frontend.
               </p>
               <p>
                 This dynamic platform allows customers to easily browse an extensive product catalog, view detailed product descriptions, and securely purchase items online. Our integration of Razorpay ensures seamless and secure payment processing.
@@ -48,11 +46,11 @@ export default function Projects() {
         <div className="accordion-item mb-4">
           <h2 className="accordion-header" id="odoo-apps-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed"  
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#odoo-apps"
-              aria-expanded="false"
+              aria-expanded="false"  
               aria-controls="odoo-apps"
             >
               Odoo Apps
@@ -60,7 +58,7 @@ export default function Projects() {
           </h2>
           <div
             id="odoo-apps"
-            className="accordion-collapse collapse"
+            className="accordion-collapse collapse"  
             aria-labelledby="odoo-apps-header"
             data-bs-parent="#accordionExample"
           >
@@ -101,11 +99,11 @@ export default function Projects() {
         <div className="accordion-item mb-4">
           <h2 className="accordion-header" id="api-dev-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed"  
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#api-dev"
-              aria-expanded="false"
+              aria-expanded="false" 
               aria-controls="api-dev"
             >
               API Development & Integrations
@@ -113,7 +111,7 @@ export default function Projects() {
           </h2>
           <div
             id="api-dev"
-            className="accordion-collapse collapse"
+            className="accordion-collapse collapse"  
             aria-labelledby="api-dev-header"
             data-bs-parent="#accordionExample"
           >

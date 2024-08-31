@@ -1,6 +1,6 @@
 import React from "react";
 import logo_about from "../../images/about_icon.png";
-import "./about.css"; // Custom CSS for additional styling
+import "./about.css"; 
 
 export default function About() {
   return (
