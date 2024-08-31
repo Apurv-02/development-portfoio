@@ -30,7 +30,7 @@ export default function Home() {
 
       <section className="contact-cta text-center py-4">
         <p className="cta-text">Ready to start your project? 
-          <Link to="mailto:shubhpathak77777@gmail.com" className="btn btn-secondary ms-2">Get in Touch</Link>
+          <Link to="mailto:shubhpathak77777@gmail.com,apurvkantaria1234@gmail.com" className="btn btn-secondary ms-2">Get in Touch</Link>
         </p>
       </section>
     </>
